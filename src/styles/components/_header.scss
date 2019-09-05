@@ -1,0 +1,30 @@
+.header {
+    background:$off-black;
+    color:$off-white;
+    margin-bottom: $s-size;
+    padding: $s-size 0;
+}
+
+.header__title {
+    font-size: $l-size;
+    margin: 0;
+}
+
+.header__subtitle {
+    font-size: $s-size;
+    font-weight: 300;
+    margin: 0;
+    color:$off-cyan;
+}
+
+.footer {
+    background:$off-black;
+    color:$off-white;
+    padding: $s-size 0;
+}
+
+@media(min-width:$desktop-breakpoint) {
+    .header {
+        margin-bottom: $xl-size;
+    }
+}
