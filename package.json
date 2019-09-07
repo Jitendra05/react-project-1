@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node server/server.js",
+    "heroku-postbuild": "npm run build",
     "build": "webpack -p --env production",
     "serve": "webpack-dev-server --open --hot --host localhost --port 4444 --env development",
     "test": "jest --config=jest.config.json"
